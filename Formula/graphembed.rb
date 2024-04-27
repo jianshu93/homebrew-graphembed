@@ -4,9 +4,9 @@
 class Graphembed < Formula
   desc "Efficient Graph Embedding via Recursive Sketching or High-order Transitivity Preserving"
   homepage "https://github.com/jean-pierreBoth/graphembed"
-  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.0/graphembed_macos_universal_v0.1.0.tar.gz"
-  sha256 "397864ed5818e9bbbd706aa36a7d59b794d22431545b1df25eca22b71f969f99"
-  version "0.1.0"
+  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.1/graphembed_macos_universal_v0.1.1.tar.gz"
+  sha256 "4953427eb5036b4dc3d49133bc38ed11304910041f0d86267fdad9eb38b890b2"
+  version "0.1.1"
 
   depends_on "openblas"
 
