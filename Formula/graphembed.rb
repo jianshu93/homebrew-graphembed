@@ -2,11 +2,11 @@
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Graphembed < Formula
-  desc "Efficient Graph Embedding via High-order Transitivity Preservation or Recursive Sketching"
+  desc "Efficient Network/Graph Embedding via High-order Transitivity Preservation or Recursive Sketching"
   homepage "https://github.com/jean-pierreBoth/graphembed"
-  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.3/graphembed_univeral.tar.gz"
-  sha256 "d79fba824d967c4a66f17c621ed62ad7065110ad0df51de7a72472a209a1fea4"
-  version "0.1.3"
+  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.4/graphembed_universal.tar.gz"
+  sha256 "0e3e565bb4fd71100edf05c981d8b544bc87a16ea58b33d61676ddcd388bb0f9"
+  version "0.1.4"
 
   depends_on "openblas"
 
