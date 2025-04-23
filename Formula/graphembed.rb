@@ -4,12 +4,12 @@
 class Graphembed < Formula
   desc "Efficient Network/Graph Embedding via High-order Transitivity Preservation or Recursive Sketching"
   homepage "https://gitlab.com/Jianshu_Zhao/graphembed"
-  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.4/graphembed_universal.tar.gz"
-  sha256 "e7ae024bd51f60e2eb9135947172267bee780f5fe39cd698faeaf15112321056"
-  version "0.1.5"
+  url "https://github.com/jianshu93/graphembed/releases/download/v0.1.6/graphembed_universal_v0.1.6.tar.gz"
+  sha256 "e52500fc72800d409ce761e4e397ad1448898dc7164f23085c1e48dd4d2c88e8"
+  version "0.1.6"
 
   depends_on "openblas"
-
+  depends_on "lapack"
   def install
     bin.install "graphembed"
   end
